@@ -1,0 +1,45 @@
+.nav-container {
+    display: flex;
+    height: 3rem;
+    overflow: hidden;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(204, 211, 205, .8);
+    box-shadow: 0 0 6px -3px;
+}
+
+.logo-container {
+    display: flex;
+    flex: 1;
+    height: 3rem;
+    justify-content: flex-start;
+}
+
+.links-container {
+    display: flex;
+    flex: 8;
+    height: 3rem;
+    justify-content: flex-end;
+}
+
+.link {
+    min-width: 5rem;
+    border-bottom: solid gray 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1rem;
+}
+
+.link:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.3);
+}
+.link:focus {
+    cursor: pointer;
+    background-color: rgba(54, 54, 54, 0.3);
+}
+
+.logo {
+    width: 60px;
+}

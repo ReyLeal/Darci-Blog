@@ -1,0 +1,1 @@
+export default 'https://previews.123rf.com/images/bestvectorstock/bestvectorstock1808/bestvectorstock180811203/107211269-photo-camera-vector-icon-isolated-on-transparent-background-photo-camera-logo-concept.jpg';
