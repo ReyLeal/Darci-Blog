@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import logo from './darci-logo.js'
+import { Link, Route } from 'react-router-dom';
+import logo from './darci-logo.js';
 import './navbar.css';
 
 export default class Navbar extends Component {
@@ -53,15 +54,18 @@ export default class Navbar extends Component {
         </div>
         <div className="links-container">
           <div className="link">
-            Home
+            <Link to='/'>Home</Link>
           </div>
           <div className="link">
-            Blog Posts
+            <Link to='/blog'> Blog Posts</Link>
           </div>
           <div className="link">
-            About
+            <Link to='/about'>About</Link>
           </div>
         </div>
+
+        <Route path='/blog'/>
+        <Route path='/about'/>
       </div>
     )
   }
