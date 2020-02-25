@@ -40,6 +40,11 @@
     background-color: rgba(54, 54, 54, 0.3);
 }
 
+.link a {
+  text-decoration: none;
+  color: black;
+}
+
 .logo {
     width: 60px;
 }
