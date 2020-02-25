@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Link, Route } from 'react-router-dom';
-import logo from './darci-logo.js';
+import logo from './logo.png';
 import './navbar.css';
 
 export default class Navbar extends Component {
@@ -49,7 +49,7 @@ export default class Navbar extends Component {
       <div className="nav-container">
         <div className="logo-container">
           <div>
-            <img className='logo' src={logo} alt="Darci Brand Logo"/>
+            <img src={logo} alt='cookie logo' className='logo'></img>
           </div>
         </div>
         <div className="links-container">
